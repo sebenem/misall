@@ -1,0 +1,205 @@
+.container{
+       width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4rem;
+       .text{
+        width: 50%;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+h2{
+    font-size: 30px;
+}
+span{
+    font-size: 16px;
+    color: gray;
+    
+}
+    }
+    .carts{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        .cart{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            &:hover{
+                h3{
+                    color: blue;
+                }
+            }
+            .image{
+                width: 40%;
+                overflow: hidden;
+                img{
+                    max-width: 100%;
+                    transition: transition 0.3s ease;
+                   &:hover{
+                    transform: scale(1.1);
+                   }
+                    
+                }
+            }
+            .intro{
+                width: 50%;
+                  display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+            h3{
+                font-size: 17px;
+
+            }
+            span{
+                font-size: 14px;
+                color: gray;
+            }
+            }
+        }
+    }
+    .batn{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            padding: 12px;
+            border: 0;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+.container{
+       width: 100%;
+   height: auto;
+       .text{
+        width: 90%;
+      margin-top: 2rem;
+h2{
+    font-size: 26px;
+}
+span{
+    font-size: 14px;
+    
+}
+    }
+    .carts{
+        width: 90%;
+        justify-content: center;
+        gap: 1rem;
+        .cart{
+            width: 100%;
+            justify-content: center;
+            .image{
+                width: 50%;
+                img{
+                    max-width: 100%;
+                   
+                }
+            }
+            .intro{
+                width: 50%;
+            h3{
+                font-size: 15px;
+
+            }
+            span{
+                font-size: 12px;
+                color: gray;
+            }
+            }
+        }
+    }
+    .batn{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            padding: 12px;
+            border: 0;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+.container{
+       width: 100%;
+   height: auto;
+       .text{
+        width: 90%;
+      margin-top: 2rem;
+h2{
+    font-size: 26px;
+}
+span{
+    font-size: 14px;
+    
+}
+    }
+    .carts{
+        width: 80%;
+        justify-content: center;
+        gap: 1rem;
+        .cart{
+            width:60%;
+            justify-content: center;
+            .image{
+                width: 50%;
+                img{
+                    max-width: 100%;
+                   
+                }
+            }
+            .intro{
+                width: 50%;
+            h3{
+                font-size: 15px;
+
+            }
+            span{
+                font-size: 12px;
+                color: gray;
+            }
+            }
+        }
+    }
+    .batn{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            padding: 12px;
+            border: 0;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+}

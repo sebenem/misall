@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://preview.colorlib.com/theme/blogger/img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text{
+        width: 70%;
+          display: flex;
+    justify-content: center;
+    flex-direction: column;
+h2{
+    font-size: 38px;
+    color: white;
+}
+    }
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+.container{
+    width: 100%;
+   height: auto;
+    .text{
+        width: 90%;
+       
+h2{
+    font-size: 28px;
+}
+    }
+}
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+.container{
+    width: 100%;
+   height: auto;
+    .text{
+        width: 70%;
+       
+h2{
+    font-size: 35px;
+}
+    }
+}
+}

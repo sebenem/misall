@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .carts{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+}

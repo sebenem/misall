@@ -1,0 +1,176 @@
+.container{
+       width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4rem;
+      .text{
+        width: 50%;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+h2{
+    font-size: 30px;
+}
+span{
+    font-size: 15px;
+    color: gray;
+    
+}
+    }
+    .carts{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .intro{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 12px;
+            span{
+                font-size: 15px;
+                color: gray;
+            }
+        }
+        .images{
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .image{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                flex-direction: column;
+                img{
+                    width: 100%;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+.container{
+       width: 100%;
+   height: auto;
+      .text{
+        width: 80%;
+        margin-top: 2rem;
+h2{
+    font-size: 27px;
+}
+span{
+    font-size: 14px;
+    
+}
+    }
+    .carts{
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: 17px;
+        .intro{
+            width: 90%;
+            gap: 12px;
+            span{
+                font-size: 14px;
+            }
+        }
+        .images{
+            width: 90%;
+            gap: 12px;
+            justify-content: center;
+flex-wrap: wrap;
+            .image{
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                flex-direction: column;
+                img{
+                    width: 80%;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+.container{
+       width: 100%;
+   height: auto;
+      .text{
+        width: 80%;
+        margin-top: 2rem;
+h2{
+    font-size: 27px;
+}
+span{
+    font-size: 14px;
+    
+}
+    }
+    .carts{
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: 17px;
+        .intro{
+            width: 70%;
+            gap: 12px;
+            span{
+                font-size: 14px;
+            }
+        }
+        .images{
+            width: 90%;
+            gap: 12px;
+            justify-content: center;
+flex-wrap: wrap;
+            .image{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                flex-direction: column;
+                img{
+                    width: 80%;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+}
