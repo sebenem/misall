@@ -1,0 +1,191 @@
+.container{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .text{
+        width: 70%;
+        span{
+            font-size: 15px;
+        }
+        h3{
+            font-size: 30px;
+        }
+
+    }
+    .carts{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+     
+        .cart{
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+           gap: 15px;
+            .basket{
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+               
+                .image{
+                    width: 100%;
+                    img{
+                        max-width: 100%;
+                    }
+
+                }
+              
+            }
+            p{
+                font-size: 14px;
+            }
+            h2{
+                font-size: 24px;
+                &:hover{
+                    color: blue;
+                }
+            }
+            span{
+                font-size: 16px;
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .container{
+        width: 100%;
+       height: auto;
+        .text{
+            width: 90%;
+            span{
+                font-size: 15px;
+            }
+            h3{
+                font-size: 30px;
+            }
+    
+        }
+        .carts{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              flex-wrap: wrap;
+         gap: 18px;
+            .cart{
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+              
+                .basket{
+                    width: 70%;
+              
+                    &:hover{
+                        .ichon{
+                         display: flex;
+                        }
+                    }
+                    .image{
+                        width: 100%;
+                        img{
+                            max-width: 100%;
+                        }
+    
+                    }
+                    .ichon{
+                        width: 85%;
+                        height: 9vh;
+                      
+                     
+                    }
+                }
+                p{
+                    font-size: 17px;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    
+  }
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    .container{
+        width: 100%;
+       height: auto;
+        .text{
+            width: 90%;
+            span{
+                font-size: 15px;
+            }
+            h3{
+                font-size: 30px;
+            }
+    
+        }
+        .carts{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              flex-wrap: wrap;
+         
+            .cart{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+             
+                .basket{
+                    width: 70%;
+              
+                    &:hover{
+                        .ichon{
+                         display: flex;
+                        }
+                    }
+                    .image{
+                        width: 100%;
+                        img{
+                            max-width: 100%;
+                        }
+    
+                    }
+                    .ichon{
+                        width: 88%;
+                        height: 9vh;
+                      
+                     
+                    }
+                }
+                p{
+                    font-size: 15px;
+                }
+                h2{
+                    font-size: 18px;
+                }
+                span{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    
+    
+  }

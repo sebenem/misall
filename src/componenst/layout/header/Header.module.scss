@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  min-height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .image {
+    width: 9%;
+    img {
+      min-width: 100%;
+    }
+  }
+  .navbar {
+    width: 40%;
+    ul {
+      width: 80%;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      li,
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        line-height: 29px;
+      }
+    }
+  }
+  .ichon {
+    width: 10%;
+    font-size: 30px;
+    display: flex;
+    gap: 24px;
+    a {
+      color: black;
+    }
+  }
+  .batn {
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    button {
+      width: 90%;
+      padding: 12px 12px;
+      border-radius: 20px;
+      border: 1px solid grey;
+      background-color: transparent;
+      cursor: pointer;
+      &:hover {
+        border: 1px solid blue;
+      }
+    }
+  }
+  .menu {
+    width: 30%;
+    display: none;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .container {
+    width: 100%;
+justify-content: space-between;
+    height: auto;
+    .image {
+      width: 40%;
+     margin-left: 24px;
+      img {
+  min-width: 30%;
+      }
+    }
+    .navbar {
+      display: none;
+    }
+    .ichon {
+      display: none;
+    }
+    .batn {
+      display: none;
+    }
+    .menu {
+      width: 20%;
+      display: flex;
+      font-size: 30px;
+      color: blue;
+    }
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .container {
+      width: 100%;
+  justify-content: space-between;
+      height: auto;
+      .image {
+        width: 40%;
+       margin-left: 24px;
+        img {
+    min-width: 30%;
+        }
+      }
+      .navbar {
+        display: none;
+      }
+      .ichon {
+        display: none;
+      }
+      .batn {
+        display: none;
+      }
+      .menu {
+        width: 20%;
+        display: flex;
+        font-size: 30px;
+        color: blue;
+      }
+    }
+  }

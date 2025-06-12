@@ -1,0 +1,115 @@
+.container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #F1F6F7;
+    .con{
+        width: 80%;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .thump{
+        width: 40%;
+      padding: 30px 12px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .text{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+      p{
+        font-size: 30px;
+      }
+      h2{
+        font-size: 45px;
+      }
+      span{
+        font-size: 15px;
+      }
+      button{
+        width: 30%;
+        padding: 12px 12px;
+        border-radius: 20px;
+        border: 0;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .container{
+        width: 100%;
+       height: auto;
+        .con{
+            width: 90%;
+           
+        .thump{
+          display: none;
+        }
+        .text{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+          p{
+            font-size: 22px;
+          }
+          h2{
+            font-size: 30px;
+          }
+          span{
+            font-size: 12px;
+          }
+          button{
+            width: 40%;
+        
+          }
+        }
+        }
+    }
+    
+  }
+
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    .container{
+        width: 100%;
+       height: auto;
+        .con{
+            width: 90%;
+           
+        .thump{
+            width: 30%;
+          display: flex;
+        }
+        .text{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+          p{
+            font-size: 22px;
+          }
+          h2{
+            font-size: 30px;
+          }
+          span{
+            font-size: 12px;
+          }
+          button{
+            width: 60%;
+        
+          }
+        }
+        }
+    }
+    
+  }

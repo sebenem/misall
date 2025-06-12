@@ -1,0 +1,171 @@
+.container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    form{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        input{
+            padding: 8px 12px;
+        }
+        button{
+            width: 12%;
+            padding: 8px 12px;
+            border-radius: 20px;
+            border: 0;
+            background-color: transparent;
+            border: 1px solid blue;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                background-color: blue;
+                color: white;
+            }
+        }
+    }
+    .table{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        table{
+            width: 85%;
+tr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  td{
+
+    width: 30%;
+  }
+    img{
+      max-width: 100%;
+    }
+}
+            button{
+                width: 100%;
+                padding: 8px 12px;
+                border-radius: 20px;
+                border: 0;
+                background-color: transparent;
+                border: 1px solid blue;
+                text-transform: uppercase;
+                cursor: pointer;
+                &:hover{
+                    background-color: blue;
+                    color: white;
+                }
+            }
+        }
+      
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .container{
+        width: 100%;
+        height: auto;
+        form{
+            width: 80%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: 12px;
+            input{
+                width: 70%;
+                padding: 8px 12px;
+            }
+            button{
+                width: 60%;
+             
+            }
+        }
+        .table{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+            table{
+                width: 90%;
+    tr{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+      td{
+    
+        width: 30%;
+      }
+        img{
+          max-width: 100%;
+        }
+    }
+                button{
+                    width: 100%;
+                 
+                }
+            }
+          
+        }
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+    .container{
+        width: 100%;
+        height: auto;
+        form{
+            width: 80%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: 12px;
+            input{
+                width: 60%;
+                padding: 8px 12px;
+            }
+            button{
+                width:50%;
+             
+            }
+        }
+        .table{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+            table{
+                width: 80%;
+    tr{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+      td{
+    
+        width: 30%;
+      }
+        img{
+          max-width: 100%;
+        }
+    }
+                button{
+                    width: 100%;
+                 
+                }
+            }
+          
+        }
+    }
+}

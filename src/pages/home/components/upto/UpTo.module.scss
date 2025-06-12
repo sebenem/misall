@@ -1,0 +1,95 @@
+.container{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://preview.colorlib.com/theme/aroma/img/home/parallax-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .text{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+      
+        flex-direction: column;
+        gap: 20px;
+
+        h2{
+            font-size: 36px;
+        }
+        p{
+            font-size: 18px;
+        }
+        span{
+            font-size: 14px;
+        }
+        button{
+            width: 15%;
+            height: 5.9vh;
+            padding: 12px 12px;
+            border-radius: 20px;
+            border: 0;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color: transparent;
+                color: black;
+                border: 1px solid blue;
+            }
+        }
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .container{
+        width: 100%;
+       height: auto;
+        .text{
+            width: 90%;
+            
+    align-items: center;
+            h2{
+                font-size: 36px;
+            }
+            p{
+                font-size: 18px;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 38%;
+                height: 5.9vh;
+             
+            }
+        }
+    }
+  }
+
+  @media screen and (min-width:700px) and (max-width: 1024px) {
+    .container{
+        width: 100%;
+       height: auto;
+        .text{
+            width: 90%;
+            
+    align-items: center;
+            h2{
+                font-size: 38px;
+            }
+            p{
+                font-size: 19px;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 23%;
+                height: 5.9vh;
+             
+            }
+        }
+    }
+  }
